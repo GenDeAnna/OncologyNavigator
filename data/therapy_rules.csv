@@ -1,41 +1,41 @@
 rule_id,biomarker_id,setting,histology,line,min_value,exclude_if,drug,brand,route,benefit,hcpcs,accelerated_approval,last_verified
-R01,EGFR_COMMON,metastatic,any,First-line,,,osimertinib,Tagrisso,Oral,Pharmacy (Part D),,,NOT YET VERIFIED
-R02,EGFR_COMMON,metastatic,any,First-line,,,osimertinib + pemetrexed + platinum chemotherapy,Tagrisso + chemo,Oral + IV,Mixed,chemo codes vary,,NOT YET VERIFIED
-R03,EGFR_COMMON,metastatic,any,First-line,,,amivantamab + lazertinib,Rybrevant + Lazcluze,IV + Oral,Mixed,J9061,,NOT YET VERIFIED
-R04,EGFR_COMMON,metastatic,any,First-line,,,erlotinib,Tarceva,Oral,Pharmacy (Part D),,,NOT YET VERIFIED
-R05,EGFR_COMMON,metastatic,any,First-line,,,gefitinib,Iressa,Oral,Pharmacy (Part D),,,NOT YET VERIFIED
-R06,EGFR_COMMON,metastatic,any,First-line,,,afatinib,Gilotrif,Oral,Pharmacy (Part D),,,NOT YET VERIFIED
-R07,EGFR_COMMON,metastatic,any,First-line,,,dacomitinib,Vizimpro,Oral,Pharmacy (Part D),,,NOT YET VERIFIED
-R08,EGFR_COMMON,adjuvant,any,Adjuvant,,,osimertinib,Tagrisso,Oral,Pharmacy (Part D),,,NOT YET VERIFIED
-R09,EGFR_EX20INS,metastatic,any,First-line,,,amivantamab + carboplatin + pemetrexed,Rybrevant + chemo,IV,Medical (Part B),J9061,,NOT YET VERIFIED
-R10,EGFR_EX20INS,metastatic,any,Subsequent,,,amivantamab,Rybrevant,IV,Medical (Part B),J9061,,NOT YET VERIFIED
-R11,EGFR_EX20INS,metastatic,any,Subsequent,,,sunvozertinib,Zegfrovy,Oral,Pharmacy (Part D),,Yes,NOT YET VERIFIED
-R12,ALK_FUSION,metastatic,any,First-line,,,alectinib,Alecensa,Oral,Pharmacy (Part D),,,NOT YET VERIFIED
-R13,ALK_FUSION,metastatic,any,First-line,,,brigatinib,Alunbrig,Oral,Pharmacy (Part D),,,NOT YET VERIFIED
-R14,ALK_FUSION,metastatic,any,First-line,,,lorlatinib,Lorbrena,Oral,Pharmacy (Part D),,,NOT YET VERIFIED
-R15,ALK_FUSION,metastatic,any,First-line,,,crizotinib,Xalkori,Oral,Pharmacy (Part D),,,NOT YET VERIFIED
-R16,ALK_FUSION,metastatic,any,First-line,,,ceritinib,Zykadia,Oral,Pharmacy (Part D),,,NOT YET VERIFIED
-R17,ALK_FUSION,adjuvant,any,Adjuvant,,,alectinib,Alecensa,Oral,Pharmacy (Part D),,,NOT YET VERIFIED
-R18,ROS1_FUSION,metastatic,any,First-line,,,crizotinib,Xalkori,Oral,Pharmacy (Part D),,,NOT YET VERIFIED
-R19,ROS1_FUSION,metastatic,any,First-line,,,entrectinib,Rozlytrek,Oral,Pharmacy (Part D),,,NOT YET VERIFIED
-R20,ROS1_FUSION,metastatic,any,First-line,,,repotrectinib,Augtyro,Oral,Pharmacy (Part D),,,NOT YET VERIFIED
-R21,ROS1_FUSION,metastatic,any,First-line,,,taletrectinib,Ibtrozi,Oral,Pharmacy (Part D),,,NOT YET VERIFIED
-R22,BRAF_V600E,metastatic,any,First-line,,,dabrafenib + trametinib,Tafinlar + Mekinist,Oral,Pharmacy (Part D),,,NOT YET VERIFIED
-R23,BRAF_V600E,metastatic,any,First-line,,,encorafenib + binimetinib,Braftovi + Mektovi,Oral,Pharmacy (Part D),,,NOT YET VERIFIED
-R24,KRAS_G12C,metastatic,any,Subsequent,,,sotorasib,Lumakras,Oral,Pharmacy (Part D),,Yes,NOT YET VERIFIED
-R25,KRAS_G12C,metastatic,any,Subsequent,,,adagrasib,Krazati,Oral,Pharmacy (Part D),,Yes,NOT YET VERIFIED
-R26,MET_EX14,metastatic,any,First-line,,,capmatinib,Tabrecta,Oral,Pharmacy (Part D),,,NOT YET VERIFIED
-R27,MET_EX14,metastatic,any,First-line,,,tepotinib,Tepmetko,Oral,Pharmacy (Part D),,,NOT YET VERIFIED
-R28,RET_FUSION,metastatic,any,First-line,,,selpercatinib,Retevmo,Oral,Pharmacy (Part D),,,NOT YET VERIFIED
-R29,RET_FUSION,metastatic,any,First-line,,,pralsetinib,Gavreto,Oral,Pharmacy (Part D),,,NOT YET VERIFIED
-R30,NTRK_FUSION,metastatic,any,Any,,,larotrectinib,Vitrakvi,Oral,Pharmacy (Part D),,,NOT YET VERIFIED
-R31,NTRK_FUSION,metastatic,any,Any,,,entrectinib,Rozlytrek,Oral,Pharmacy (Part D),,,NOT YET VERIFIED
-R32,NTRK_FUSION,metastatic,any,Any,,,repotrectinib,Augtyro,Oral,Pharmacy (Part D),,Yes,NOT YET VERIFIED
-R33,ERBB2_MUT,metastatic,any,Subsequent,,,fam-trastuzumab deruxtecan,Enhertu,IV,Medical (Part B),J9358,Yes,NOT YET VERIFIED
-R34,ERBB2_MUT,metastatic,any,Subsequent,,,zongertinib,Hernexeos,Oral,Pharmacy (Part D),,Yes,NOT YET VERIFIED
-R35,NRG1_FUSION,metastatic,any,Subsequent,,,zenocutuzumab,Bizengri,IV,Medical (Part B),check current code,Yes,NOT YET VERIFIED
-R37,PDL1,metastatic,any,First-line,50,EGFR_COMMON;EGFR_EX20INS;ALK_FUSION,atezolizumab,Tecentriq,IV,Medical (Part B),J9022,,NOT YET VERIFIED
-R38,PDL1,metastatic,any,First-line,50,EGFR_COMMON;EGFR_EX20INS;ALK_FUSION;ROS1_FUSION,cemiplimab,Libtayo,IV,Medical (Part B),J9119,,NOT YET VERIFIED
-R39,PDL1,metastatic,any,First-line,1,EGFR_COMMON;EGFR_EX20INS;ALK_FUSION,pembrolizumab,Keytruda,IV,Medical (Part B),J9271,,NOT YET VERIFIED
-R40,PDL1,metastatic,any,First-line,1,EGFR_COMMON;EGFR_EX20INS;ALK_FUSION,nivolumab + ipilimumab,Opdivo + Yervoy,IV,Medical (Part B),J9299; J9228,,NOT YET VERIFIED
-R41,PDL1,adjuvant,any,Adjuvant,1,,atezolizumab (after resection and platinum chemo),Tecentriq,IV,Medical (Part B),J9022,,NOT YET VERIFIED
+R01,EGFR_COMMON,metastatic,any,First-line,,,osimertinib,Tagrisso,Oral,Pharmacy (Part D),,,openFDA label check 2026-11-15
+R02,EGFR_COMMON,metastatic,any,First-line,,,osimertinib + pemetrexed + platinum chemotherapy,Tagrisso + chemo,Oral + IV,Mixed,chemo codes vary,,openFDA label check 2026-11-15
+R03,EGFR_COMMON,metastatic,any,First-line,,,amivantamab + lazertinib,Rybrevant + Lazcluze,IV + Oral,Mixed,J9061,,openFDA label check 2026-11-15
+R04,EGFR_COMMON,metastatic,any,First-line,,,erlotinib,Tarceva,Oral,Pharmacy (Part D),,,openFDA label check 2026-11-15
+R05,EGFR_COMMON,metastatic,any,First-line,,,gefitinib,Iressa,Oral,Pharmacy (Part D),,,openFDA label check 2026-11-15
+R06,EGFR_COMMON,metastatic,any,First-line,,,afatinib,Gilotrif,Oral,Pharmacy (Part D),,,openFDA label check 2026-11-15
+R07,EGFR_COMMON,metastatic,any,First-line,,,dacomitinib,Vizimpro,Oral,Pharmacy (Part D),,,openFDA label check 2026-11-15
+R08,EGFR_COMMON,adjuvant,any,Adjuvant,,,osimertinib,Tagrisso,Oral,Pharmacy (Part D),,,openFDA label check 2026-11-15
+R09,EGFR_EX20INS,metastatic,any,First-line,,,amivantamab + carboplatin + pemetrexed,Rybrevant + chemo,IV,Medical (Part B),J9061,,openFDA label check 2026-11-15
+R10,EGFR_EX20INS,metastatic,any,Subsequent,,,amivantamab,Rybrevant,IV,Medical (Part B),J9061,,openFDA label check 2026-11-15
+R11,EGFR_EX20INS,metastatic,any,Subsequent,,,sunvozertinib,Zegfrovy,Oral,Pharmacy (Part D),,Yes,openFDA label check 2026-11-15
+R12,ALK_FUSION,metastatic,any,First-line,,,alectinib,Alecensa,Oral,Pharmacy (Part D),,,openFDA label check 2026-11-15
+R13,ALK_FUSION,metastatic,any,First-line,,,brigatinib,Alunbrig,Oral,Pharmacy (Part D),,,openFDA label check 2026-11-15
+R14,ALK_FUSION,metastatic,any,First-line,,,lorlatinib,Lorbrena,Oral,Pharmacy (Part D),,,openFDA label check 2026-11-15
+R15,ALK_FUSION,metastatic,any,First-line,,,crizotinib,Xalkori,Oral,Pharmacy (Part D),,,openFDA label check 2026-11-15
+R16,ALK_FUSION,metastatic,any,First-line,,,ceritinib,Zykadia,Oral,Pharmacy (Part D),,,openFDA label check 2026-11-15
+R17,ALK_FUSION,adjuvant,any,Adjuvant,,,alectinib,Alecensa,Oral,Pharmacy (Part D),,,openFDA label check 2026-11-15
+R18,ROS1_FUSION,metastatic,any,First-line,,,crizotinib,Xalkori,Oral,Pharmacy (Part D),,,openFDA label check 2026-11-15
+R19,ROS1_FUSION,metastatic,any,First-line,,,entrectinib,Rozlytrek,Oral,Pharmacy (Part D),,,openFDA label check 2026-11-15
+R20,ROS1_FUSION,metastatic,any,First-line,,,repotrectinib,Augtyro,Oral,Pharmacy (Part D),,,openFDA label check 2026-11-15
+R21,ROS1_FUSION,metastatic,any,First-line,,,taletrectinib,Ibtrozi,Oral,Pharmacy (Part D),,,openFDA label check 2026-11-15
+R22,BRAF_V600E,metastatic,any,First-line,,,dabrafenib + trametinib,Tafinlar + Mekinist,Oral,Pharmacy (Part D),,,openFDA label check 2026-11-15
+R23,BRAF_V600E,metastatic,any,First-line,,,encorafenib + binimetinib,Braftovi + Mektovi,Oral,Pharmacy (Part D),,,openFDA label check 2026-11-15
+R24,KRAS_G12C,metastatic,any,Subsequent,,,sotorasib,Lumakras,Oral,Pharmacy (Part D),,Yes,openFDA label check 2026-11-15
+R25,KRAS_G12C,metastatic,any,Subsequent,,,adagrasib,Krazati,Oral,Pharmacy (Part D),,Yes,openFDA label check 2026-11-15
+R26,MET_EX14,metastatic,any,First-line,,,capmatinib,Tabrecta,Oral,Pharmacy (Part D),,,openFDA label check 2026-11-15
+R27,MET_EX14,metastatic,any,First-line,,,tepotinib,Tepmetko,Oral,Pharmacy (Part D),,,openFDA label check 2026-11-15
+R28,RET_FUSION,metastatic,any,First-line,,,selpercatinib,Retevmo,Oral,Pharmacy (Part D),,,openFDA label check 2026-11-15
+R29,RET_FUSION,metastatic,any,First-line,,,pralsetinib,Gavreto,Oral,Pharmacy (Part D),,,openFDA label check 2026-11-15
+R30,NTRK_FUSION,metastatic,any,Any,,,larotrectinib,Vitrakvi,Oral,Pharmacy (Part D),,,openFDA label check 2026-11-15
+R31,NTRK_FUSION,metastatic,any,Any,,,entrectinib,Rozlytrek,Oral,Pharmacy (Part D),,,openFDA label check 2026-11-15
+R32,NTRK_FUSION,metastatic,any,Any,,,repotrectinib,Augtyro,Oral,Pharmacy (Part D),,Yes,openFDA label check 2026-11-15
+R33,ERBB2_MUT,metastatic,any,Subsequent,,,fam-trastuzumab deruxtecan,Enhertu,IV,Medical (Part B),J9358,Yes,openFDA label check 2026-11-15
+R34,ERBB2_MUT,metastatic,any,Subsequent,,,zongertinib,Hernexeos,Oral,Pharmacy (Part D),,Yes,openFDA label check 2026-11-15
+R35,NRG1_FUSION,metastatic,any,Subsequent,,,zenocutuzumab,Bizengri,IV,Medical (Part B),check current code,Yes,openFDA label check 2026-11-15
+R37,PDL1,metastatic,any,First-line,50,EGFR_COMMON;EGFR_EX20INS;ALK_FUSION,atezolizumab,Tecentriq,IV,Medical (Part B),J9022,,openFDA label check 2026-11-15
+R38,PDL1,metastatic,any,First-line,50,EGFR_COMMON;EGFR_EX20INS;ALK_FUSION;ROS1_FUSION,cemiplimab,Libtayo,IV,Medical (Part B),J9119,,openFDA label check 2026-11-15
+R39,PDL1,metastatic,any,First-line,1,EGFR_COMMON;EGFR_EX20INS;ALK_FUSION,pembrolizumab,Keytruda,IV,Medical (Part B),J9271,,openFDA label check 2026-11-15
+R40,PDL1,metastatic,any,First-line,1,EGFR_COMMON;EGFR_EX20INS;ALK_FUSION,nivolumab + ipilimumab,Opdivo + Yervoy,IV,Medical (Part B),J9299; J9228,,openFDA label check 2026-11-15
+R41,PDL1,adjuvant,any,Adjuvant,1,,atezolizumab (after resection and platinum chemo),Tecentriq,IV,Medical (Part B),J9022,,openFDA label check 2026-11-15

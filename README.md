@@ -43,8 +43,9 @@ PanCancer Atlas study (cBioPortal), combining mutation and fusion data
 use simplified codon rules. Results describe biomarker prevalence, not treatment eligibility.*
 ## Data sources
 - Therapy rules: hand-built from FDA prescribing information (DailyMed / openFDA).
-  Each rule is marked with the date it was verified against the current label.
-- Patients: synthetic only. No real patient data.
+  All 40 rules were checked against current FDA labels with an automated openFDA
+  script (`scripts/check_fda_labels.R`; 37 passed automatically, 3 reviewed by hand).
+  The check confirms indication and biomarker, not line of therapy.- Patients: synthetic only. No real patient data.
 - NCCN Guidelines are copyrighted and are not reproduced.
 
 ## Disclaimer

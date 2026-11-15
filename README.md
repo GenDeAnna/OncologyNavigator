@@ -1,5 +1,7 @@
 # Oncology Treatment Access Navigator (NSCLC) - Phase 1
 
+**Live demo:** https://gendeanna.shinyapps.io/oncology-navigator/ (may take 15 seconds to wake up)
+
 An R Shiny prototype that helps oncology clinicians and financial coordinators
 reduce treatment delays for non-small cell lung cancer (NSCLC).
 

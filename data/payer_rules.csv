@@ -1,0 +1,13 @@
+payer_type,benefit,pa_typical,payer_note
+Original Medicare,Medical (Part B),Usually not required,Billed by HCPCS code; coverage follows the FDA label and accepted compendia and local coverage determinations (LCDs).
+Original Medicare,Pharmacy (Part D),Depends on the Part D plan,The plan formulary decides; oral cancer drugs are often specialty tier with high coinsurance - check patient assistance.
+Original Medicare,Mixed,Part B portion usually not required; Part D portion depends on the plan,Each component is billed under its own benefit.
+Medicare Advantage,Medical (Part B),Often required,May include step therapy. CMS-0057-F decision timeframes apply to medical items and services but not to drugs.
+Medicare Advantage,Pharmacy (Part D),Often required,Formulary exception may be needed for non-formulary drugs.
+Medicare Advantage,Mixed,Often required for each component,Submit medical and pharmacy requests separately.
+Medicaid,Medical (Part B),Often required; varies by state,Check the state preferred drug list and managed care plan rules.
+Medicaid,Pharmacy (Part D),Often required; varies by state,Check the state preferred drug list.
+Medicaid,Mixed,Often required; varies by state,Medical and pharmacy components may go to different reviewers.
+Commercial,Medical (Part B),Often required; varies by plan,Many plans use a specialty drug management vendor.
+Commercial,Pharmacy (Part D),Often required; varies by plan,Usually filled by the plan's specialty pharmacy.
+Commercial,Mixed,Often required for each component; varies by plan,Medical and pharmacy benefits may be managed by different vendors.

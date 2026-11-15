@@ -1,0 +1,10 @@
+patient_id,age,sex,histology,stage_group,line,payer,pdl1_tps,biomarkers_tested,story
+PT001,64,F,Nonsquamous,Advanced / metastatic (IIIB-IV),First-line,Medicare Advantage,10,ALL,EGFR L858R found on a full DNA + RNA panel
+PT002,58,M,Nonsquamous,Advanced / metastatic (IIIB-IV),First-line,Commercial,80,ALL,ALK fusion with high PD-L1 (immunotherapy alone should be excluded)
+PT003,71,M,Squamous,Advanced / metastatic (IIIB-IV),First-line,Original Medicare,60,EGFR_COMMON;EGFR_EX20INS;BRAF_V600E;KRAS_G12C;MET_EX14;ERBB2_MUT,DNA-only panel - fusion testing gaps
+PT004,67,F,Nonsquamous,Advanced / metastatic (IIIB-IV),Subsequent,Medicaid,,ALL,KRAS G12C after first-line therapy; PD-L1 never run
+PT005,55,F,Nonsquamous,Advanced / metastatic (IIIB-IV),First-line,Commercial,5,EGFR_COMMON;ALK_FUSION,Only single-gene EGFR and ALK tests - many gaps
+PT006,62,M,Nonsquamous,"Early stage, resected (IB-IIIA)",Adjuvant,Original Medicare,30,ALL,EGFR exon 19 deletion after surgery
+PT007,49,F,Nonsquamous,Advanced / metastatic (IIIB-IV),Subsequent,Commercial,0,ALL,HER2 (ERBB2) exon 20 insertion
+PT008,60,M,Nonsquamous,Advanced / metastatic (IIIB-IV),First-line,Medicare Advantage,1,ALL,MET exon 14 skipping
+PT009,53,F,Nonsquamous,Advanced / metastatic (IIIB-IV),First-line,Commercial,0,ALL,EGFR exon 20 insertion

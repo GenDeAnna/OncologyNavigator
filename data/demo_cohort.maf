@@ -1,0 +1,13 @@
+Hugo_Symbol	Tumor_Sample_Barcode	Variant_Classification	HGVSp_Short
+EGFR	PT001	Missense_Mutation	p.L858R
+TP53	PT001	Missense_Mutation	p.R273H
+ALK	PT002	Fusion	EML4-ALK fusion
+TP53	PT002	Nonsense_Mutation	p.R213*
+TP53	PT003	Missense_Mutation	p.R248Q
+CDKN2A	PT003	Frame_Shift_Del	p.D84fs
+KRAS	PT004	Missense_Mutation	p.G12C
+STK11	PT004	Nonsense_Mutation	p.Q37*
+EGFR	PT006	In_Frame_Del	p.E746_A750del
+ERBB2	PT007	In_Frame_Ins	p.A775_G776insYVMA
+MET	PT008	Splice_Site	p.X1010_splice
+EGFR	PT009	In_Frame_Ins	p.D770_N771insSVD

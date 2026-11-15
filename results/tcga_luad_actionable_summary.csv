@@ -1,0 +1,12 @@
+biomarker_id,tumors,percent,biomarker
+KRAS_G12C,70,12.5,KRAS G12C
+EGFR_COMMON,46,8.2,EGFR exon 19 deletion or L858R
+BRAF_V600E,9,1.6,BRAF V600E
+MET_EX14,8,1.4,MET exon 14 skipping
+ROS1_FUSION,7,1.2,ROS1 rearrangement
+ALK_FUSION,5,0.9,ALK rearrangement
+ERBB2_MUT,5,0.9,HER2 (ERBB2) activating mutation
+EGFR_EX20INS,3,0.5,EGFR exon 20 insertion
+RET_FUSION,2,0.4,RET rearrangement
+NRG1_FUSION,1,0.2,NRG1 fusion
+NTRK_FUSION,1,0.2,NTRK1/2/3 fusion

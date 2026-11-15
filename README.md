@@ -26,6 +26,21 @@ authorization stalls. Clinical and financial teams usually work in separate syst
 ## Tests
 Run `testthat::test_dir("tests/testthat")` (16 automated checks).
 
+## Real-data validation (TCGA lung adenocarcinoma)
+The variant classifier was applied to 562 tumors from the TCGA Lung Adenocarcinoma
+PanCancer Atlas study (cBioPortal), combining mutation and fusion data
+(`scripts/tcga_analysis.R`).
+
+- **27.9% of tumors (157/562)** carried a biomarker with an FDA-approved targeted therapy for NSCLC
+- Most common: KRAS G12C (12.5%) and EGFR exon 19 deletion / L858R (8.2%)
+- No tumor carried more than one actionable driver, reproducing the known mutual
+  exclusivity of lung cancer driver alterations
+
+![Actionable biomarkers in TCGA LUAD](results/tcga_luad_actionable.png)
+
+*Caveats: TCGA tumors are mostly early-stage resected adenocarcinomas; some therapies
+(e.g., KRAS G12C inhibitors) are approved only after prior treatment; exon-level calls
+use simplified codon rules. Results describe biomarker prevalence, not treatment eligibility.*
 ## Data sources
 - Therapy rules: hand-built from FDA prescribing information (DailyMed / openFDA).
   Each rule is marked with the date it was verified against the current label.
